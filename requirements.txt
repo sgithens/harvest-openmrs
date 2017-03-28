@@ -1,10 +1,22 @@
-Django>=1.5,<1.6
-Markdown
+Django==1.8.17
 
-# Harvest components
-modeltree==1.1.10
-avocado>=2.4,<2.5
-serrano>=2.4,<2.5
+# git@github.com:chop-dbhi/modeltree.git
+modeltree==2.0.0
+
+# https://github.com/sgithens/restlib2/tree/django-1.8
+-e git+git@github.com:sgithens/restlib2.git@6689106d179b26d4c0437ad9a82218bc205805eb#egg=restlib2
+
+# https://github.com/sgithens/django-objectset/tree/django-1.8
+-e git+git@github.com:sgithens/django-objectset.git@898064267f41a5d23df9ba5d26f289785dff4285#egg=django-objectset
+
+# https://github.com/sgithens/avocado/tree/django-1.8-support
+-e git+git@github.com:sgithens/avocado.git@284c7a63913b339fd86616e663eb41eefe31add3#egg=avocado
+
+# https://github.com/sgithens/serrano/tree/django-1.8-support
+-e git+git@github.com:sgithens/serrano.git@582eb0590bb40944413f8b4f36c51e6d020bdc49#egg=serrano
+
+
+Markdown
 
 # Harvest extensions
 django-haystack==2.0.0

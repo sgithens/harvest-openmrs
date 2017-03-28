@@ -22,14 +22,14 @@ INSTALLED_APPS = (
     'avocado',
     'serrano',
     'modeltree',
-    'south',
     'haystack',
 
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.humanize',
-    'django.contrib.markup',
+    # sgithens, need to look in to this issue, and what it's for
+    # 'django.contrib.markup',
     'django.contrib.messages',
     'django.contrib.sessions',
     'django.contrib.sites',
